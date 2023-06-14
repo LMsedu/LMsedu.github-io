@@ -6,14 +6,17 @@
 a.nav-link {
     color: white ;
     text-align: center;
-    margin-top: 4px;
 }
-img{
+ul.navbar-nav {
+    margin: auto;
+}
+.lmssdu{
     height: 30px;
-    margin-left: 300px;
+    text-align: center;
 }
-.icons{
-    margin-left: 70px;
+.icons .nav-link i{
+    font-size: 18px !important;
+    color: white;
 }
 a.nav-link:hover {
     color: white;
@@ -27,8 +30,10 @@ button.btn{
     background-color: #AB0534;
     border-radius: 20px;
     margin: auto;
+    color: white;
+    font-size: 14px;
     display: flex;
-    box-shadow: 2px 2px 2px black;
+    box-shadow: 5px 5px 5px black;
 }
 .image{
     margin: auto;
@@ -41,6 +46,9 @@ button.btn{
 .second-section{
     padding: 40px 0px;
     background:#F4F8FF;
+}
+.row.roundss {
+    margin: 0px !important;
 }
 
 .course {
@@ -74,6 +82,21 @@ i{
 h6{
     font-size: 20px;
 }
+button.btn-primary.butoons.text-center.m-auto.d-flex {
+    background-color: #CB287A;
+    Padding: 5px 38px !important;
+    border: none;
+}
+button.btn-primary.butoons.text-center.m-auto.d-flex.buuttoonnss {
+    padding: 5px 15px !important;
+    border-radius: 20px;
+}
+button.btn-primary.butoons.text-center.m-auto.d-flex {
+    background-color: #CB287A;
+    Padding: 5px 36px !important;
+    border: none;
+    border-radius: 21px;
+}
 
 @media only screen and (max-width: 767px) {
     img.image.mt-5 {
@@ -85,6 +108,9 @@ h6{
     .border{
         border: 3px solid #A6A6A6;
         width: 20% !important;
+    }
+    .fluidi{
+        height: 40vh !important;
     }
   }
 
@@ -149,6 +175,10 @@ h6{
     font-size: 20px;
     margin: 20px !important;
 }
+.main-div-main {
+    border: 1px solid black;
+    padding: 4px;
+}
 .row{
     display: flex;
     justify-content: center;
@@ -157,17 +187,21 @@ h6{
                                         /* Six Section */
 
 .img-card{
-    width: 20% !important;
+    width: 15% !important;
+   
     height: 75px
 }
 .CARDS{
     padding: 35px;
+   
 }
 .card-body{
     border: none;
 }
 .titels{
     text-align: center;
+    font-size: 19px;
+   
 }
                                  /* SEVEN SECTION */
 .round{
@@ -229,4 +263,7 @@ a.btn.btn-primary {
 }
 .para{
     text-align: center;
+}
+.mains-div-mains:hover{
+    box-shadow: 0px 0px 5px 0px black;
 }
