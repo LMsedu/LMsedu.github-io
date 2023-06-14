@@ -267,8 +267,7 @@ a.btn.btn-primary {
 .mains-div-mains:hover{
     box-shadow: 0px 0px 5px 0px black;
 }
-nav.navbar.navbar-expand-lg.navber {
-    position: sticky;
-    top: 0;
-    z-index: 99999;
+button#search {
+    padding: 7px 64px;
+    background: linear-gradient(154deg, blue, transparent);
 }
